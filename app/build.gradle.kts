@@ -60,6 +60,11 @@ dependencies {
     implementation(libs.androidx.ui.tooling.preview)
     implementation(libs.androidx.material3)
     implementation(libs.androidx.navigation.compose)
+    
+    // ViewModel
+    implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.6.2")
+    implementation("androidx.lifecycle:lifecycle-runtime-compose:2.6.2")
+    
     // Material Icons Extended - 모든 아이콘 사용 가능
     implementation("androidx.compose.material:material-icons-extended:1.5.4")
     testImplementation(libs.junit)
